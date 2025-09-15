@@ -38,7 +38,7 @@ class _AngleConverterScreenState extends State<AngleConverterScreen> {
     final input = double.tryParse(_controller.text);
     if (input == null) {
       setState(() {
-        _result = "Introduceți un număr valid! ";
+        _result = "Introduceți un număr valid!";
       });
       return;
     }
